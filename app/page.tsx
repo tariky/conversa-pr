@@ -238,21 +238,21 @@ export default function Home() {
 				</h1>
 				<div className="flex flex-col gap-6 sm:grid sm:grid-cols-3">
 					<a
-						href="#"
+						href="https://www.facebook.com/conversa.agency/"
 						className="bg-amber-200 px-5 py-4 flex gap-6 items-center rounded-lg"
 					>
 						<Image src={facebook} alt="facebook icon" />
 						<span className="text-amber-900">Facebook</span>
 					</a>
 					<a
-						href="#"
+						href="https://www.instagram.com/conversa_agency/"
 						className="bg-amber-200 px-5 py-4 flex gap-6 items-center rounded-lg"
 					>
 						<Image src={instagram} alt="instagram icon" />
 						<span className="text-amber-900">Instagram</span>
 					</a>
 					<a
-						href="#"
+						href="https://www.linkedin.com/company/conversa-agency/"
 						className="bg-amber-200 px-5 py-4 flex gap-6 items-center rounded-lg"
 					>
 						<Image src={linkedin} alt="linkedin icon" />
