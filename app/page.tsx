@@ -235,7 +235,7 @@ export default function Home() {
 						<div className="flex flex-col gap-6">
 							<div className="flex flex-col font-bold">
 								<span>email</span>
-								<span className="text-xl">conversaured@gmail.com</span>
+								<span className="text-xl">conversa.ured@gmail.com</span>
 							</div>
 						</div>
 					</div>
