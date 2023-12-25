@@ -3,7 +3,9 @@
 import Image from "next/image";
 import logoWhite from "@/public/assets/logo-white.svg";
 import megaphone from "@/public/assets/megaphone.webp";
-import umihanaAvatar from "@/public/assets/umihana-avatar.webp";
+import umihanaAvatar from "@/public/assets/umihana.webp";
+import mirza from "@/public/assets/mirza.webp";
+import muamera from "@/public/assets/muamera.webp";
 import Card from "@/components/Card";
 import compas from "@/public/assets/compas-icon.svg";
 import pen from "@/public/assets/pen-icon.svg";
@@ -11,6 +13,7 @@ import magaphoneIcon from "@/public/assets/megaphone-icon.svg";
 import hat from "@/public/assets/hat-icon.svg";
 import Review from "@/components/Review";
 import lunatik from "@/public/assets/lunatik-logo.svg";
+import edukabh from "@/public/assets/edukabh.svg";
 import tarik from "@/public/assets/tarik-avatar.webp";
 import planjax from "@/public/assets/planjax-logo.png";
 import medina from "@/public/assets/medina-avatar.webp";
@@ -174,8 +177,8 @@ export default function Home() {
 							text={
 								"Conversa je pomogla našoj kompaniji da ostvari značajan napredak u oblasti odnosa s javnošću i digitalnog marketinga. Njihova kreativnost i stručnost u kreiranju kampanja su neosporni. Uspjeli smo povećati broj klijenata i poboljšati percepciju našeg brenda. Toplo preporučujemo Conversa svima koji traže partnera za marketinške i PR usluge."
 							}
-							avatar={medina}
-							name="Medina Planjac"
+							avatar={mirza}
+							name="Mirza Planjac"
 							company="CEO  - Planjax Group d.o.o."
 						/>
 						<Review
@@ -195,6 +198,15 @@ export default function Home() {
 							avatar={amra}
 							name="Amra Skrobo - Berberović"
 							company="Marketing direktorica - Boreas d.o.o."
+						/>
+						<Review
+							logo={edukabh}
+							text={
+								"Sa izuzetnim zadovoljstvom ističem uspješnu saradnju Centra za obrazovanje odraslih Eduka BH sa Conversom u oblasti edukacija iz poslovne komunikacije i javnog nastupa. Conversa se pokazala kao pouzdan partner, pružajući našim polaznicima visokokvalitetne i relevantne obuke koje su značajno unaprijedile njihove vještine."
+							}
+							avatar={muamera}
+							name="Muamera Planjac"
+							company="CEO - Eduka BH"
 						/>
 					</div>
 				</section>
